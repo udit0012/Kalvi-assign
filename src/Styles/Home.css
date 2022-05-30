@@ -1,0 +1,54 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0;
+}
+.intro-box {
+  width: 100%;
+  padding: 4rem 0;
+}
+.profile-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+}
+.img-bg{
+    z-index: -1;
+    background: #A3CA39;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 66rem;
+    height: 67%;
+}
+.head-name {
+  margin: 0rem 7rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.head-desc {
+  margin: .5rem 7rem;
+  font-size: 1.2rem;
+  padding-right: 8rem;
+}
+.head-comment {
+    margin: 1.5rem 7rem;
+    font-size: 1.2rem;
+    padding-right: 8rem;
+}
+.btn {
+  margin: .5rem 7rem;
+  background: #A3CA39;
+  color: white;
+  border: 0;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .1s;
+}
+.btn:hover{
+    background-color: #99bc37;
+}

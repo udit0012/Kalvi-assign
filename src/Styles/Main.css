@@ -1,0 +1,31 @@
+.main-container{
+    position: relative;
+}
+.bg-img{
+    position: absolute;
+    z-index: -1;
+}
+.main-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box-name{
+    font-size: 5.5rem;
+    width: 10%;
+    font-weight: bold;
+    margin: 0 10rem;
+}
+.main-detail{
+    width: 100%;
+    padding-left: 14rem;
+}
+.main-date{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #A3CA39;
+    padding: .25rem 0;
+}
+.school-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
