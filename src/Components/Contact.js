@@ -1,5 +1,7 @@
 import React from 'react'
-
+import instagram from './images/pokemon.png'
+import facebook from './images/facebook.png'
+import youtube from './images/youtube.png'
 const Contact = () => {
   return (
     <div className='contact-container'>
@@ -7,9 +9,9 @@ const Contact = () => {
         <div className='contact-head'>Contact</div>
         <a href='#' className='contact-email'>rachel.green@gmail.com</a>
         <div className='contact-icons'>
-          <img src="/assets/instagram.png" alt="" />
-          <img src="/assets/youtube.png" alt="" />
-          <img src="/assets/facebook.png" alt="" />
+          <img src={instagram} alt="" />
+          <img src={youtube} alt="" />
+          <img src={facebook} alt="" />
         </div>
       </div>
       <div className='copyright'><div className='text'>All rights deserved.</div></div>
