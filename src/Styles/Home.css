@@ -19,7 +19,7 @@
     width: 25%;
     position: absolute;
     top: 0;
-    left: 66rem;
+    left: 68rem;
     height: 67%;
 }
 .head-name {
@@ -51,4 +51,44 @@
 }
 .btn:hover{
     background-color: #99bc37;
+}
+
+.contact-container{
+  display: flex;
+}
+.contact{
+  background: #a3ca39;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  padding: 6rem 14rem;
+}
+.contact-head{
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+}
+.contact-email{
+  color: white;
+  font-size: 1.3rem;
+}
+.contact-icons{
+  display: flex;
+  align-items: center;
+}
+.contact-icons img{
+  margin: .5rem .25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.copyright{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.copyright .text{
+  margin: 4rem 3rem;
 }

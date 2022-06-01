@@ -1,31 +1,172 @@
-.main-container{
-    position: relative;
+.main-container {
+  position: relative;
 }
-.bg-img{
-    position: absolute;
-    z-index: -1;
+.bg-img {
+    width: 27rem;
+    height: 22rem;
+  position: absolute;
+  z-index: -1;
 }
-.main-box{
+.main-box {
+  display: flex;
+}
+.box-name {
+  font-size: 7rem;
+  width: 10%;
+  font-weight: bold;
+  margin: 0 10rem;
+}
+.main-detail {
+  width: 40%;
+  padding-left: 14rem;
+}
+.main-date {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #a3ca39;
+  padding: 0.5rem 0;
+}
+.school-name {
+  padding: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.mainhustle-desc {
+  padding-right: 9rem;
+  font-size: 1.2rem;
+}
+
+/* My work css */
+.work-container {
+  text-align: center;
+  margin: 3rem 0;
+}
+.work-heading {
+  margin: 5rem 0;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.work-desc {
+  margin: 4rem auto;
+  width: 40%;
+  font-size: 1.2rem;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+.cards-box {
+  display: grid;
+  text-align: start;
+  grid-template-columns: auto auto auto;
+  column-gap: 18rem;
+  row-gap: 4rem;
+  margin: 4rem 16rem;
+}
+.card-box {
+  position: relative;
+  /* padding:0 9.5rem; */
+}
+.card-style {
+  /* margin:0 9.5rem; */
+  width: 1.8rem;
+  height: 2.7rem;
+  background: #a3ca39;
+  position: absolute;
+  left: 0.7rem;
+  top: -0.7rem;
+}
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.25rem 0;
+}
+.card-text {
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  font-weight: 600;
+}
+.card-btn {
+  margin: 0;
+  background: none;
+  color: #a3ca39;
+  padding: 0.25rem 0rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.card-btn:hover {
+  background: none;
+  color: #8bb31f;
+}
+
+.achiv-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+.achiv-name {
+  margin: 0;
+  width: 20%;
+  padding: 1rem 5rem 1rem 4rem;
+  background: #a3ca39;
+  color: white;
+  height: fit-content;
+}
+.achiv-details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 3rem;
+  row-gap: 7rem;
+  width: 30%;
+  padding: 0 2rem;
+}
+.achiv-desc {
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  color: rgb(71, 71, 71);
+  position: relative;
+}
+.achiv-desc::before {
+  content: "";
+  width: 2rem;
+  height: 0.25rem;
+  position: absolute;
+  top: 0;
+  border-radius: 1rem;
+  background: #a3ca39;
+}
+.hustle-head {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hustle-heading {
+  margin: 0 7rem;
+  color: #a3ca39;
+}
+.hustle-desc {
+  font-size: 1.1rem;
+  margin: 2rem 7rem;
+  padding-right: 18rem;
+}
+.hustle-images{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    margin-bottom: 6rem;
 }
-.box-name{
-    font-size: 5.5rem;
-    width: 10%;
-    font-weight: bold;
-    margin: 0 10rem;
+.hustle-img{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: auto auto auto auto;
 }
-.main-detail{
-    width: 100%;
-    padding-left: 14rem;
+.guitar {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: end;
 }
-.main-date{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #A3CA39;
-    padding: .25rem 0;
-}
-.school-name{
-    font-weight: bold;
-    font-size: 1.2rem;
+.badminton {
+    grid-column-start: 2;
 }

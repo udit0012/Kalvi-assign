@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Main from './Components/Main';
 import Navbar from './Components/Navbar';
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Home />
       <Main />
+      <Contact />
     </div>
   );
 }
