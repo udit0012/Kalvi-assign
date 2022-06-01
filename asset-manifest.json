@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kalvi-assign/static/css/main.10e29906.css",
+    "main.js": "/Kalvi-assign/static/js/main.cf6713cf.js",
+    "static/js/787.994142b8.chunk.js": "/Kalvi-assign/static/js/787.994142b8.chunk.js",
+    "index.html": "/Kalvi-assign/index.html",
+    "main.10e29906.css.map": "/Kalvi-assign/static/css/main.10e29906.css.map",
+    "main.cf6713cf.js.map": "/Kalvi-assign/static/js/main.cf6713cf.js.map",
+    "787.994142b8.chunk.js.map": "/Kalvi-assign/static/js/787.994142b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10e29906.css",
+    "static/js/main.cf6713cf.js"
+  ]
+}
