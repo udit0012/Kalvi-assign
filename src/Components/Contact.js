@@ -1,5 +1,5 @@
 import React from 'react'
-import instagram from './images/pokemon.png'
+import instagram from './images/instagram.png'
 import facebook from './images/facebook.png'
 import youtube from './images/youtube.png'
 const Contact = () => {
