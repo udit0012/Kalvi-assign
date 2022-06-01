@@ -3,12 +3,13 @@ import '../Styles/Main.css'
 import Achivements from './Achivements'
 import CardsBox from './CardsBox'
 import ImagesGroup from './ImagesGroup'
+import Background from './images/bg.png'
 
 const Main = () => {
     return (
         <div className='main-container'>
             <div className='main-box'>
-                <img className='bg-img' src="/assets/bg.png" alt="" />
+                <img className='bg-img' src={Background} alt="" />
                 <div className='box-name'>My Main Hustle</div>
                 <div className='main-detail'>
                     <div className='main-date'> Aug 2019 - Jun 2020</div>
