@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kalvi-assign/static/css/main.10e29906.css",
-    "main.js": "/Kalvi-assign/static/js/main.99ef8c81.js",
+    "main.js": "/Kalvi-assign/static/js/main.0f34ca87.js",
     "static/js/787.6e6efb3c.chunk.js": "/Kalvi-assign/static/js/787.6e6efb3c.chunk.js",
     "static/media/guitar.png": "/Kalvi-assign/static/media/guitar.5739db1c8805688df935.png",
     "static/media/profile-pic.png": "/Kalvi-assign/static/media/profile-pic.be47fc153eedfa009a35.png",
@@ -15,13 +15,14 @@
     "static/media/e-birthday-card.png": "/Kalvi-assign/static/media/e-birthday-card.7e293648a678da02faf0.png",
     "static/media/pokemon.png": "/Kalvi-assign/static/media/pokemon.04819b454b9dca44c880.png",
     "static/media/recipe.png": "/Kalvi-assign/static/media/recipe.db1b4cbe492e92869862.png",
+    "static/media/youtube.png": "/Kalvi-assign/static/media/youtube.89460ccc60d851819e86.png",
     "index.html": "/Kalvi-assign/index.html",
     "main.10e29906.css.map": "/Kalvi-assign/static/css/main.10e29906.css.map",
-    "main.99ef8c81.js.map": "/Kalvi-assign/static/js/main.99ef8c81.js.map",
+    "main.0f34ca87.js.map": "/Kalvi-assign/static/js/main.0f34ca87.js.map",
     "787.6e6efb3c.chunk.js.map": "/Kalvi-assign/static/js/787.6e6efb3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10e29906.css",
-    "static/js/main.99ef8c81.js"
+    "static/js/main.0f34ca87.js"
   ]
 }
